@@ -83,6 +83,12 @@ td {
 @media (max-width: 320px) {
     body {
         background-color: hsl(0, 0%, 100%);
+        margin: 0;
+        padding: 0;
     }
-    
+    .container {
+        border-radius: none;
+        margin: 0;
+        padding: 1rem;
+    }
 }
