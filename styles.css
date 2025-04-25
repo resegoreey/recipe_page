@@ -21,7 +21,6 @@ img {
 .container h1 {
   font-family: YoungSerif-Regular;
   font-weight: 400;
-
 }
 
 .container {
@@ -30,7 +29,6 @@ img {
   padding: 1rem;
   border-radius: 8px;
   width: 50%;
-  
 }
 
 .container img {
@@ -81,19 +79,27 @@ td {
 }
 
 @media (max-width: 480px) {
-    body {
-        background-color: hsl(0, 0%, 100%);
-        margin: 0;
-        padding: 0;
-    }
-    .container {
-        border-radius: 0;
-        margin: 0;
-        padding: 1rem;
-    }
+  body {
+    background-color: hsl(0, 0%, 100%);
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    border-radius: 0;
+    margin: 0;
+    padding: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
 
-    img {
-        max-width: 100%;
-        height: auto;
-    }
+  .container p,
+  .container li,
+  .container td {
+    font-size: 14px;
+  }
+
+  .container img {
+    width: 100%;
+    height: auto;
+  }
 }
